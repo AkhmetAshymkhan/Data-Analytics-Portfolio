@@ -3,6 +3,8 @@
 End-to-end data analytics project focused on sales performance,
 product profitability, inventory management, and ABC-XYZ segmentation.
 
+![Sales & Inventory Analytics Dashboard](images/dashboard.png)
+
 ## Business Problem
 
 The goal of this project is to analyze retail sales and inventory data
