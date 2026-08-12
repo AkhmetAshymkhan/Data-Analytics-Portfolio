@@ -83,16 +83,6 @@ An interactive Tableau dashboard was created to monitor:
 
 **View Dashboard:** [Sales & Inventory Analytics Dashboard](https://public.tableau.com/app/profile/akhmet.ashymkhan/viz/SalesInventoryAnalyticsDashboard/Dashboard1?publish=yes)
 
-## Project Structure
-
-Retail-Inventory-Analytics/
-├── data/
-│   └── processed/
-├── python/
-├── sql/
-├── README.md
-└── requirements.txt
-
 ## Skills Demonstrated
 
 - Data Cleaning
