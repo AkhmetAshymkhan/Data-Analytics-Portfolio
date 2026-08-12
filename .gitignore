@@ -1,0 +1,15 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Raw source data
+data/raw/
+
+# PostgreSQL local files
+*.dump
