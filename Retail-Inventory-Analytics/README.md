@@ -1,87 +1,105 @@
 # Retail Sales & Inventory Analytics
 
-End-to-end data analytics project focused on sales performance, product profitability, inventory management, and ABC-XYZ product segmentation.
-
-The project combines **Python, SQL, and Tableau** to transform raw retail data into actionable business insights.
+End-to-end data analytics project focused on sales performance,
+product profitability, inventory management, and ABC-XYZ segmentation.
 
 ## Business Problem
 
-A retail business needs to understand:
+The goal of this project is to analyze retail sales and inventory data
+and identify:
 
-- Which products generate the most profit?
-- How does profitability change over time?
-- Which high-performing products are at risk of running out of stock?
-- Which products are the most important for the business?
-- How can products be segmented based on value and demand stability?
+- Which products generate the most profit
+- Monthly profit trends
+- Products with low stock and high profitability
+- Product performance using ABC-XYZ segmentation
+- Key sales and inventory KPIs
 
-The goal of this project is to build an analytical workflow that answers these questions and presents the results through an interactive dashboard.
+## Tools Used
 
-## Tools & Technologies
+- Python
+- Pandas
+- SQL
+- Tableau
+- CSV
 
-- **Python** — data cleaning and preparation
-- **Pandas** — data transformation and analysis
-- **SQL** — business queries and analytical calculations
-- **Tableau** — interactive dashboard and visualization
-- **Git / GitHub** — version control and project documentation
+## Data Preparation
 
-## Dashboard
+Python was used to:
 
-### Sales & Inventory Analytics Dashboard
+- Clean and validate the datasets
+- Handle data types and missing values
+- Merge product and sales data
+- Prepare datasets for SQL and Tableau analysis
 
-The Tableau dashboard provides an overview of sales performance and inventory risks.
+## SQL Analysis
 
-**Main KPIs:**
+SQL was used to calculate and analyze:
 
-- Total Units Sold: **18.7K**
-- Total Profit: **₸8.02M**
-- Total Products: **244**
-- Average Profit per Product: **₸32.9K**
+- Total profit
+- Total units sold
+- Product-level profitability
+- Monthly performance
+- Top-performing products
+- Inventory-related metrics
 
-### Dashboard Features
+## Key KPIs
 
-- Monthly profit analysis
-- Top 5 products by profit
-- ABC-XYZ product segmentation
-- Low-stock / high-profit product identification
-- Month filtering
-- Inventory-level filtering
-- Interactive ABC-XYZ filtering
-- Detailed product tooltips
+The dashboard tracks:
 
-## Key Insights
-
-- **May** generated the highest monthly profit at approximately **₸2.27M**.
-- The top-performing product generated approximately **₸223.2K** in profit.
-- The **A-X segment** contributes approximately **₸4.41M**, making it the most valuable ABC-XYZ segment.
-- Several highly profitable products have very low remaining inventory, highlighting potential stockout risks.
-- ABC-XYZ segmentation helps distinguish high-value stable products from lower-value or less predictable products.
+- Total Units Sold: 18.7K
+- Total Profit: ₸8.02M
+- Total Products: 244
+- Average Profit per Product: ₸32.9K
 
 ## ABC-XYZ Analysis
 
-Products are segmented using two dimensions:
+Products were segmented using the ABC-XYZ framework.
 
-**ABC classification** evaluates products based on their contribution to business value.
+ABC classification represents product importance based on business value.
 
-- **A** — highest-value products
-- **B** — medium-value products
-- **C** — lower-value products
+XYZ classification separates products based on demand behavior.
 
-**XYZ classification** evaluates demand stability.
+This allows products to be grouped into segments such as AX, AY, AZ,
+BX, BY, BZ, CX, CY, and CZ.
 
-- **X** — stable demand
-- **Y** — moderate demand variability
-- **Z** — higher demand variability
+## Key Insights
 
-Combining both classifications creates a matrix that helps prioritize inventory and product management decisions.
+- May generated the highest monthly profit at approximately ₸2.27M.
+- The top product generated approximately ₸223K in profit.
+- Several high-profit products have very low remaining stock,
+  highlighting potential inventory risks.
+- ABC-XYZ segmentation helps identify the most commercially important
+  product groups.
+
+## Tableau Dashboard
+
+An interactive Tableau dashboard was created to monitor:
+
+- Sales KPIs
+- Monthly profit
+- Top 5 products by profit
+- ABC-XYZ segmentation
+- Low-stock / high-profit products
+
+**View Dashboard:** [Sales & Inventory Analytics Dashboard](https://public.tableau.com/app/profile/akhmet.ashymkhan/viz/SalesInventoryAnalyticsDashboard/Dashboard1?publish=yes)
 
 ## Project Structure
 
-```text
 Retail-Inventory-Analytics/
 ├── data/
 │   └── processed/
 ├── python/
 ├── sql/
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis
+- SQL Analysis
+- KPI Development
+- ABC-XYZ Analysis
+- Data Visualization
+- Tableau Dashboard Development
+- Business Analytics
